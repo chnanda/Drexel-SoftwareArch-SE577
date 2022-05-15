@@ -1,2 +1,3 @@
 # Basic architecture diagram showing the components and their relationships of a single page application (SPA)
 
+![architecture diagram](spa1.png)
