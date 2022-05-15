@@ -1,2 +1,2 @@
-# proj-release-1
+# Basic architecture diagram showing the components and their relationships of a single page application (SPA)
 
