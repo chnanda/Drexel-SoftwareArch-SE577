@@ -1,3 +1,1 @@
-# Week 3 Deliverable - proj-release-2
-
-![architecture](spa1.png)
+The steps to run and test the microservice , reading my repo in the Github Demo

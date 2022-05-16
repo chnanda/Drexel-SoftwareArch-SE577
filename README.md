@@ -1,5 +1,5 @@
-# Week 3 Deliverable - proj-release-1
+# Week 5 Deliverable - proj-release-2
 
-The basic [architecture diagram](ProjectStub.md) showing the components and their relationships of a single page application (SPA)
+The steps to run and test [Rel2](Release2.md) the microservice, reading my repo in the Github Demo
 
 ![architecture](spa1.png)
