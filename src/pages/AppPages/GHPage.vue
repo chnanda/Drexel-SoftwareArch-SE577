@@ -43,9 +43,7 @@ const columns = [
 let rows = ref([] as rowType[]);
 
 onMounted(async () => {
-  const res = await axios.get(
-    'https://api.github.com/users/architectingsoftware/repos'
-  );
+  const res = await axios.get('https://api.github.com/users/chnanda/repos');
 
   rows.value = [];
   const rList = res.data as rowType[];
