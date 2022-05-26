@@ -1,4 +1,4 @@
-The steps to run and test the microservice in Docker
+## The steps to run and test the microservice in Docker
 
 ## Install the dependencies
 
@@ -44,4 +44,7 @@ quasar build
 
 ### Modify the configs
 
-### Use the makeFile to run the Docker instancd
+### Use the makeFile to run the Docker instance
+
+make docker-run
+docker run --rm p 9094:9094 architectig-software/bc-service-node-fastify
