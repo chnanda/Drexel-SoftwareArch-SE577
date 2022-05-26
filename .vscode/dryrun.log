@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/nchebr411/Documents/Nan/Drexel/SE577_2022/MyCode/Drexel-SoftwareArch-SE577'
+echo "Usage make <TARGET>"
+echo ""
+echo "  Targets:"
+echo "     dev-server   		Run the server in dev mode, auto-reload"
+echo "     build-server		Build the server components -> /dist/spa"
+echo "     docker-server		Dockerize the server -> code in /dist/spa"
+echo "     docker-run			Run server container"
+echo "     docker-run-d		Run server detached"
+ 
+make: Leaving directory `/Users/nchebr411/Documents/Nan/Drexel/SE577_2022/MyCode/Drexel-SoftwareArch-SE577'
+ 
