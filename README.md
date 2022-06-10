@@ -1,6 +1,6 @@
-# FinL Project
+# FinaL Project
 
-## cMy Final project is about rendering all my repos and display in a tabular format.
+## My Final project is about rendering all my repos and display in a tabular format.
 
 ## Then explore the branches in each repo , it displays all branches that have been created and displayed in a table.
 
@@ -9,14 +9,11 @@ Created a Gitbub demo link @ http://localhost:8080/gh_demo
 In this the components call the github API's to display the repo list
 I have built one more component page which renders the branches in each repo.
 
-## Developed a simple app to test the Github Auth token
-
-As requested created two sections with Authentication and UnAthentication, provided buttons which calls the Github API and renders the details. One with plan object and other with out planobject.
-http://localhost:8080/gh_auth
-
 ![Exploring Reoos and Verifying Github branches](GH_finalDemo.png)
 
 ## The steps to run and test the microservice in Docker
+
+The Git hub personal token is provide in blackboard.
 
 ### use the make file to run,
 
