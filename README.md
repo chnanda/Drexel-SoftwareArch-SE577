@@ -1,5 +1,8 @@
 # Week 6 Deliverable - proj-release-3
 
+Tested the UI and GH API with the token validations.
+![architecture](GH_UI_Update_API_update.png)
+
 ## The steps to run and test the microservice in Docker
 
 ### use the make file to run,
