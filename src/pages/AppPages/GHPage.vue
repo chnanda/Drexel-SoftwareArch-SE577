@@ -12,18 +12,18 @@
         row-key="id"
       />
     </div>
+    <div class="row">
+      <div class="col-4">
+        <GHBranchComponent />
+      </div>
+    </div>
   </div>
 </template>
-
-<script lang="ts">
-export default {
-  name: 'GitHubPage',
-};
-</script>
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
+import GHBranchComponent from 'src/components/GH/GHBranches.vue';
 
 type rowType = {
   id: string;

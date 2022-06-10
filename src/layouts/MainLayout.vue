@@ -43,7 +43,9 @@
           <router-link to="/simple_state">Simple State</router-link> |
           <router-link to="/web_state">Web State</router-link> |
           <router-link to="/bc_demo">Block Chain</router-link> |
-          <router-link to="/gh_demo">Github</router-link>
+          <router-link to="/gh_demo">Github</router-link>|
+          <router-link to="/gh_auth">Github Auth Test</router-link>|
+          <router-link to="/gh_gist">Github Gist</router-link>
         </div>
         <router-view />
       </div>

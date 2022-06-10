@@ -31,6 +31,14 @@ const routes: RouteRecordRaw[] = [
         path: '/gh_demo',
         component: () => import('pages/AppPages/GHPage.vue'),
       },
+      {
+        path: '/gh_gist',
+        component: () => import('pages/AppPages/GHGistPage.vue'),
+      },
+      {
+        path: '/gh_auth',
+        component: () => import('pages/AppPages/GHAuthTestPage.vue'),
+      },
     ],
   },
 
