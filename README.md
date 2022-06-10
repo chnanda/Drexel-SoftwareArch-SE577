@@ -1,4 +1,19 @@
-# Week 6 Deliverable - proj-release-3
+# Week 8 Deliverable - proj-release-4
+
+## creating and rendering a Gist from the UI using GIT HUB API
+
+Created a Gitbub Gist link @ http://localhost:8080/gh_gist
+
+In this the components call the github API's to display the gists
+I have built two pages one with token which gives only my gists
+and the other with a big list of public gists.
+
+## Developed a simple app to test the Github Auth token
+
+As requested created two sections with Authentication and UnAthentication, provided buttons which calls the Github API and renders the details. One with plan object and other with out planobject.
+http://localhost:8080/gh_auth
+
+![Token Verification](GH_Auth_Test.png)
 
 ## The steps to run and test the microservice in Docker
 
