@@ -1,19 +1,20 @@
-# Week 8 Deliverable - proj-release-4
+# FinL Project
 
-## creating and rendering a Gist from the UI using GIT HUB API
+## cMy Final project is about rendering all my repos and display in a tabular format.
 
-Created a Gitbub Gist link @ http://localhost:8080/gh_gist
+## Then explore the branches in each repo , it displays all branches that have been created and displayed in a table.
 
-In this the components call the github API's to display the gists
-I have built two pages one with token which gives only my gists
-and the other with a big list of public gists.
+Created a Gitbub demo link @ http://localhost:8080/gh_demo
+
+In this the components call the github API's to display the repo list
+I have built one more component page which renders the branches in each repo.
 
 ## Developed a simple app to test the Github Auth token
 
 As requested created two sections with Authentication and UnAthentication, provided buttons which calls the Github API and renders the details. One with plan object and other with out planobject.
 http://localhost:8080/gh_auth
 
-![Token Verification](GH_Auth_Test.png)
+![Exploring Reoos and Verifying Github branches](GH_finalDemo.png)
 
 ## The steps to run and test the microservice in Docker
 
@@ -38,4 +39,4 @@ Update UI pages to reflect the github api calls.
 
 3. steps in the makefile.
 
-Steps to run the application and architecture [Steps](Release3.md)
+Steps to run the application and architecture [Steps](finalRelease.md)
